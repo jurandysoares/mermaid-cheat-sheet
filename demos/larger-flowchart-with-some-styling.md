@@ -1,6 +1,6 @@
-### 4.3 Larger Flowchart with Some Styling
+# Larger Flowchart with Some Styling
 
-```raw
+```
 graph TB
     sq[Square shape] --> ci((Circle shape))
 
@@ -24,7 +24,7 @@ graph TB
      class di orange
 ```
 
-<div class="mermaid">
+```{mermaid}
 graph TB
     sq[Square shape] --> ci((Circle shape))
 
@@ -47,5 +47,5 @@ graph TB
      class sq,e green
      class di orange
 
-</div>
+```
 

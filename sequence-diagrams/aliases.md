@@ -1,20 +1,19 @@
-### 2.2 Aliases
+# Aliases
 
 The participant can have a convenient identifier and a descriptive label.
 
-~~~markdown
+```markdown
 sequenceDiagram
     participant A as Alice
     participant J as John
     A->>J: Hello John, how are you?
     J-->>A: Great!
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     participant A as Alice
     participant J as John
     A->>J: Hello John, how are you?
     J-->>A: Great!
-</div>
-
+```

@@ -1,65 +1,65 @@
-### 2.5 Notes
+# Notes
 
 Add notes to a sequence diagram by the notation `Note`.
 
-```raw
+```
 Note [ right of | left of | over ] [Actor]: Text in note content
 ```
 
 1) Right Side
 
-~~~markdown
+```markdown
 sequenceDiagram
     participant John
     Note right of John: Text in note
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     participant John
     Note right of John: Text in note
 
-</div>
+```
 
 2) Left Side
 
-~~~markdown
+```markdown
 sequenceDiagram
     participant John
     Note left of John: Text in note
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     participant John
     Note left of John: Text in note
-</div>
+```
 
 3) Over
 
-~~~markdown
+```markdown
 sequenceDiagram
     participant John
     Note over John: Text in note
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     participant John
     Note over John: Text in note
-</div>
+```
 
 4) Create notes spanning two participants
 
-~~~markdown
+```markdown
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     Note over Alice,John: A typical interaction
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     Note over Alice,John: A typical interaction
-</div>
+```
 

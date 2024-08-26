@@ -1,8 +1,8 @@
 # Mermaid Cheat Sheet
 
 ```{toctree}
-maxdepth: 1
-caption: Sumário
+:maxdepth: 1
+:caption: Sumário
 
 flowcharts/index.md
 sequence-diagrams/index.md

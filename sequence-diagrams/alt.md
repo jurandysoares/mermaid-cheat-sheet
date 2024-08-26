@@ -1,26 +1,26 @@
-### 2.7 Alt
+# Alt
 
 Express alternative paths in a sequence diagram by the notation `alt`.
 
-~~~markdown
+```markdown
 alt Describing text
 ... statements ...
 else
 ... statements ...
 end
-~~~
+```
 
 Or, if there is sequence that is optional (if without else).
 
-~~~markdown
+```markdown
 opt Describing text
 ... statements ...
 end
-~~~
+```
 
 Example:
 
-~~~markdown
+```markdown
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     alt is sick
@@ -31,9 +31,9 @@ sequenceDiagram
     opt Extra response
         John->>Alice: Thanks for asking
     end
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     alt is sick
@@ -44,5 +44,5 @@ sequenceDiagram
     opt Extra response
         John->>Alice: Thanks for asking
     end
-</div>
+```
 

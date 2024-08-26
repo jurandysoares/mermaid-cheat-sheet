@@ -1,17 +1,17 @@
-### 1.4 Subgraphs
+# Subgraphs
 
 
 Syntax:
 
-~~~markdown
+```markdown
 subgraph title
     graph definition
 end
-~~~
+```
 
 Example:
 
-~~~markdown
+```markdown
 graph TB
     c1-->a2
     subgraph one
@@ -23,9 +23,9 @@ graph TB
     subgraph three
     c1-->c2
     end
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 graph TB
     c1-->a2
     subgraph one
@@ -37,5 +37,5 @@ graph TB
     subgraph three
     c1-->c2
     end
-</div>
+```
 

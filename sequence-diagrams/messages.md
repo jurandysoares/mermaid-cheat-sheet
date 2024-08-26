@@ -1,8 +1,8 @@
-### 2.3 Messages
+# Messages
 
 Messages can be of two displayed either solid or with a dotted line.
 
-```raw
+```
 [Actor][Arrow][Actor]:Message text
 ```
 There are six types of arrows currently supported:

@@ -1,8 +1,8 @@
-## 3. Gant Diagrams
+# Gant Diagrams
 
 A Gantt chart is a type of bar chart, first developed by Karol Adamiecki in 1896, and independently by Henry Gantt in the 1910s, that illustrates a project schedule. Gantt charts illustrate the start and finish dates of the terminal elements and summary elements of a project.
 
-~~~markdown
+```markdown
 gantt
     title A Gantt Diagram
     dateFormat  YYYY-MM-DD
@@ -12,9 +12,9 @@ gantt
     section Another
     Second Task      :2018-07-12, 12d
     Third Task       : 24d
-~~~
+```
 
-<div class="mermaid">
+```{mermaid}
 gantt
     title A Gantt Diagram
     dateFormat  YYYY-MM-DD
@@ -24,9 +24,9 @@ gantt
     section Another
     Second Task      :2018-07-12, 12d
     Third Task       : 24d
-</div>
+```
 
-```raw
+```
 gantt
        dateFormat  YYYY-MM-DD
        title Adding GANTT diagram functionality to mermaid
@@ -56,7 +56,7 @@ gantt
        Add another diagram to demo page    :48h
 ```
 
-<div class="mermaid">
+```{mermaid}
 gantt
        dateFormat  YYYY-MM-DD
        title Adding GANTT diagram functionality to mermaid
@@ -84,5 +84,5 @@ gantt
        Describe gantt syntax               :after doc1, 3d
        Add gantt diagram to demo page      :20h
        Add another diagram to demo page    :48h
-</div>
+```
 

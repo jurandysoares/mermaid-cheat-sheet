@@ -1,6 +1,6 @@
-### 4.4 Basic Sequence Diagram
+# Basic Sequence Diagram
 
-```raw
+```
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
@@ -12,7 +12,7 @@ sequenceDiagram
     Alice->John: Yes... John, how are you?
 ```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
@@ -22,5 +22,5 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-</div>
+```
 

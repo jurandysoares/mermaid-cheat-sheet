@@ -1,6 +1,6 @@
-### 4.1 Basic Flowchart
+# Basic Flowchart
 
-```raw
+```
 graph LR
     A[Square Rect] -- Link text --> B((Circle))
     A --> C(Round Rect)
@@ -8,11 +8,11 @@ graph LR
     C --> D
 ```
 
-<div class="mermaid">
+```{mermaid}
 graph LR
     A[Square Rect] -- Link text --> B((Circle))
     A --> C(Round Rect)
     B --> D{Rhombus}
     C --> D
-</div>
+```
 

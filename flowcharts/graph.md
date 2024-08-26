@@ -1,4 +1,4 @@
-### 1.1 Graph
+# Graph
 
 Possible directions are:
 
@@ -19,35 +19,35 @@ Possible directions are:
   <tbody>
     <tr>
       <td>TB</td>
-      <td><div class="mermaid">graph TB;A-->B;</div></td>
+      <td>```{mermaid}graph TB;A-->B;</div></td>
       <td>
         <pre class="highlight">graph TB;<br/>    A-->B;</pre>
       </td>
     </tr>
     <tr>
       <td>BT</td>
-      <td><div class="mermaid">graph BT;A-->B;</div></td>
+      <td>```{mermaid}graph BT;A-->B;</div></td>
       <td>
         <pre class="highlight">graph BT;<br/>    A-->B;</pre>
       </td>
     </tr>
     <tr>
       <td>RL</td>
-      <td><div class="mermaid">graph RL;A-->B;</div></td>
+      <td>```{mermaid}graph RL;A-->B;</div></td>
       <td>
         <pre class="highlight">graph RL;<br/>    A-->B;</pre>
       </td>
     </tr>
     <tr>
       <td>LR</td>
-      <td><div class="mermaid">graph LR;A-->B;</div></td>
+      <td>```{mermaid}graph LR;A-->B;</div></td>
       <td>
         <pre class="highlight">graph LR;<br/>    A-->B;</pre>
       </td>
     </tr>
     <tr>
       <td>TD</td>
-      <td><div class="mermaid">graph TD;A-->B;</div></td>
+      <td>```{mermaid}graph TD;A-->B;</div></td>
       <td>
         <pre class="highlight">graph TD;<br/>    A-->B;</pre>
       </td>

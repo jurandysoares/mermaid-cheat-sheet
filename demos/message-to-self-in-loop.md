@@ -1,6 +1,6 @@
-### 4.5 Message to Self in Loop
+# Message to Self in Loop
 
-```raw
+```
 sequenceDiagram
     participant Alice
     participant Bob
@@ -14,7 +14,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
-<div class="mermaid">
+```{mermaid}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -26,5 +26,5 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
-</div>
+```
 
