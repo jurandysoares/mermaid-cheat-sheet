@@ -4,9 +4,9 @@ A flowchart is a type of diagram that represents an algorithm, workflow or proce
 
 ```{toctree}
 :maxdepth: 1
-:caption: Sumário
+:caption: "Contents:"
 
-graph.md
+graph/index.md
 nodes-shapes.md
 links-between-nodes.md
 subgraphs.md

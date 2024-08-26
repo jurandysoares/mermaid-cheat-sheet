@@ -4,7 +4,7 @@ A Sequence diagram is an interaction diagram that shows how processes operate wi
 
 ```{toctree}
 :maxdepth: 1
-:caption: Sumário
+:caption: "Contents:"
 
 participants.md
 aliases.md

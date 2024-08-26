@@ -2,7 +2,7 @@
 
 ```{toctree}
 :maxdepth: 1
-:caption: Sumário
+:caption: "Contents:"
 
 basic-flowchart.md
 flowchart-with-decision.md
